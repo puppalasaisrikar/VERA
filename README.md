@@ -1,15 +1,39 @@
-VERA - AI Compliance Co-Pilot
+# VERA - AI Compliance Co-Pilot
+**Validation & Explanation for Regulatory Assurance**
 
-VERA (Validation & Explanation for Regulatory Assurance, and “truth” in Latin) is a stand-alone AI compliance co-pilot.
+VERA is an AI-powered compliance co-pilot that transforms messy lab results (CSV/XLSX) into instant, unit-aware **PASS/FAIL decisions** against materials standards like **ISO 527** or **ASTM D638**.  
+Unlike a rules script, VERA combines deterministic checks with LLM intelligence to make compliance validation faster, explainable, and reproducible.
 
-It turns messy lab results (CSV/XLSX) into instant, unit-aware PASS/FAIL decisions against chosen standards (e.g., ISO 527, ASTM D638 via user-provided templates).
+---
 
-Unlike a simple rules script, VERA is an LLM-augmented workflow that:
+## 🚀 Features
+- **Upload & Map** – Upload lab results; AI suggests column mappings and units.  
+- **Natural Language → YAML** – Define compliance rules in plain English; VERA generates a machine-readable template.  
+- **Validate** – Deterministic pass/fail validation with KPIs and color-coded results.  
+- **Explain** – LLM-generated, grounded explanations with remediation tips.  
+- **Export** – Generate a one-page PDF compliance report instantly.
 
-Maps messy column names automatically (AI-assisted).
+---
 
-Normalizes units with scientific accuracy.
+## 📊 Demo Flow
+1. Select a standard or describe rules in natural language.  
+2. Upload results (CSV/XLSX).  
+3. Validate and review pass/fail status.  
+4. View explanations and remediation.  
+5. Export a polished PDF report.
 
-Validates deterministically against YAML/JSON standard templates.
+---
 
-Narrates results with grounded explanations and remediation tips - like a seasoned QA engineer.
+## ⚙️ Installation
+```bash
+# clone repo
+git clone https://github.com/puppalasaisrikar/VERA.git
+cd VERA
+
+# create environment
+conda create -n vera python=3.11 -y
+conda activate vera
+
+# install dependencies
+pip install -r requirements.txt
+
