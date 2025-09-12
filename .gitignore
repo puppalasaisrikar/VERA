@@ -1,0 +1,38 @@
+# Python cache / build
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+*.pyo
+*.pyd
+*.so
+build/
+dist/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+.conda/
+*.conda
+*.ipynb_checkpoints
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Streamlit
+.streamlit/
+
+# Reports / generated files
+*.pdf
+*.html
+*.log
+
+# OS junk
+Thumbs.db
