@@ -1,0 +1,9 @@
+streamlit
+pandas
+pyyaml
+pint
+reportlab
+rapidfuzz
+requests
+openpyxl
+
