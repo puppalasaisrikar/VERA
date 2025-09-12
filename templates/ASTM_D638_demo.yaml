@@ -1,0 +1,1 @@
+standard_id: ASTM_D638_demoversion: "1.0"units:  tensile_strength: MPa  elongation_at_break: "%"metadata_required:  - specimen_typechecks:  - metric: tensile_strength    op: ">="    value: 55    unit: MPa    note: "UTS minimum"  - metric: elongation_at_break    op: ">="    value: 8    unit: "%"    note: "EAB minimum"grouping:  lot_id: lot
