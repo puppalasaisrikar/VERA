@@ -1,0 +1,1 @@
+import pandas as pddef load_table(path_or_buf):    """Load CSV or Excel file into a DataFrame."""    s = str(path_or_buf).lower()    if s.endswith((".xlsx", ".xls")):        return pd.read_excel(path_or_buf)    return pd.read_csv(path_or_buf)def preview(df, n=8):    """Return first n rows of DataFrame."""    return df.head(n)
