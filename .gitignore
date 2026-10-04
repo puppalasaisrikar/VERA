@@ -27,7 +27,7 @@ ENV/
 .DS_Store
 
 # Streamlit
-.streamlit/
+.streamlit/secrets.toml
 
 # Reports / generated files
 *.pdf
