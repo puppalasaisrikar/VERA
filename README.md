@@ -1,4 +1,4 @@
-# VERA — Validation & Explanation for Regulatory Assurance
+# VERA - Validation & Explanation for Regulatory Assurance
 
 **[Try it live →](https://vera-compliance.streamlit.app/)**
 
