@@ -4,12 +4,12 @@
 
 > Hosted on Streamlit Community Cloud, which sleeps after inactivity. The first
 > load may take a moment to wake, and if you see a loading error, refresh the
-> page — it's a cached-asset issue on Streamlit's side, not the app.
+> page - it's a cached-asset issue on Streamlit's side, not the app.
 
 VERA checks materials test results against a compliance standard and explains
 what failed. Upload a lab CSV, confirm the column mapping, and get a
 pass/fail verdict per specimen with the measured value, the threshold, and the
-margin — plus a plain-English explanation and a one-page PDF report.
+margin - plus a plain-English explanation and a one-page PDF report.
 
 Standards are defined as YAML, so adding one takes a file rather than a code
 change. You can also describe thresholds in plain English and have VERA compile
@@ -55,7 +55,7 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 
-Activate the environment — `venv\Scripts\activate` on Windows, `source venv/bin/activate` on macOS or Linux.
+Activate the environment - `venv\Scripts\activate` on Windows, `source venv/bin/activate` on macOS or Linux.
 
 Set an Anthropic API key for the AI-assisted steps:
 
