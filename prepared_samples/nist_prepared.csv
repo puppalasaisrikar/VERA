@@ -1,2 +1,25 @@
-specimen_id,lot,specimen_type,test_speed_mm_per_min,tensile_strength_mpa,elong%,modulus_gpa
-U90Al6XXXT4_Numisheet2020R02T1.487W12.73,A,Type1,,305.11,-8.06,-1.561
+specimen_id,lot,specimen_type,test_speed_mm_min,UTS_MPa,elongation_pct,modulus_GPa
+PA-1001,A,Type I,5,62.4,11.2,2.41
+PA-1002,A,Type I,5,61.8,10.6,2.38
+PA-1003,A,Type I,5,63.1,12.1,2.45
+PA-1004,A,Type I,5,60.9,9.8,2.33
+PA-1005,A,Type I,5,64.0,11.7,2.52
+PA-1006,A,Type I,5,59.7,10.1,2.29
+PB-2001,B,Type I,5,56.2,8.4,2.18
+PB-2002,B,Type I,5,54.1,7.6,2.11
+PB-2003,B,Type I,5,57.8,9.0,2.24
+PB-2004,B,Type I,5,48.2,6.1,1.97
+PB-2005,B,Type I,5,55.4,7.9,2.09
+PB-2006,B,Type I,5,52.6,8.8,2.03
+PB-2007,B,Type I,5,58.3,9.4,2.27
+PC-3001,C,Type IV,50,61.0,10.9,2.44
+PC-3002,C,Type IV,50,,9.7,2.31
+PC-3003,C,Type IV,50,60.2,,2.36
+PC-3004,C,Type IV,50,59.4 MPa,10.3,2.28
+PC-3005,C,Type IV,50,"1,062",11.0,2.40
+PC-3006,C,Type IV,50,62.7,10.4,3.88
+PC-3007,C,Type IV,50,63.3,11.8,2.49
+PD-4001,D,Type I,5,305.11,-8.06,-1.561
+PD-4002,D,Type I,5,n/a,10.2,2.35
+PD-4003,D,Type I,5,61.5,10.7,2.42
+PD-4004,D,Type I,5,57.1,8.2,2.20
